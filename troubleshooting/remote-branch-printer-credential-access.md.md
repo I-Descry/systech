@@ -43,9 +43,9 @@ The printer was not visible or accessible from the desktop (remote), preventing 
 
 * Accessed server PC to retrieve correct Username and Password
 * Configured Windows Credential Manager on the remote device
-* Added Network Credential using (hostname): `\\\\DESKTOP-EXAMPLE`
+* Added Network Credential using (hostname): `\\DESKTOP-EXAMPLE`
 * Opened run dialog (`Windows Key + R`)
-* Entered (hostname) `\\\\DESKTOP-EXAMPLE` to access shared resources
+* Entered (hostname) `\\DESKTOP-EXAMPLE` to access shared resources
 * Connected it to the shared network printer
 
 
