@@ -37,11 +37,11 @@ A structured repository for documenting system issues, solutions, and technical 
 
 
 
-* `troubleshooting/` - issue logs and fixes
-* `scripts/` - basic automation scripts
-* `networking/` - network-related notes
-* `system-setup/`- setup and configuration guides
-* `notes/` - general technical learning
+* `troubleshooting` - issue logs and fixes
+* `scripts` - basic automation scripts
+* `networking` - network-related notes
+* `system-setup`- setup and configuration guides
+* `notes` - general technical learning
 
 
 
