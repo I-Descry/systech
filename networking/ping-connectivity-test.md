@@ -16,7 +16,7 @@ The `ping` command is use to test network connectivity between the device and a 
 
 1. Open Command Prompt (CMD)
 2. Type:
-`ping` *(IP address)*
+`ping` *IP address*
 3. Enter
 
 
@@ -29,7 +29,7 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-`ping` *(IP Address)*
+`ping` *IP Address*
 
 `ping` 192.168.1.1
 
