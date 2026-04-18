@@ -94,7 +94,7 @@ Request timed out.
 * Device is unreachable
 * Possible Causes:
 
-  1. Wrong IP Address
+  1. Wrong IP address
   2. Device is offline
   3. Device is powered off
   4. Network cable disconnected
