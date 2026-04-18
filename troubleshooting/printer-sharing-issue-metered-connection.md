@@ -1,8 +1,8 @@
-**## Overview**
+\## Overview
 
 
 
-A desktop were unable to print to a shared network printer because the host PC (printer server) was configured with a \*\*Metered Network Connection\*\*.
+A desktop were unable to print to a shared network printer because the host PC (printer server) was configured with **Metered Network Connection**.
 
 
 
@@ -32,7 +32,7 @@ A desktop were unable to print to a shared network printer because the host PC (
 * Verified both host PC and Users network connectivity → Same network connectivity
 * Tested `ping` between devices → Successful
 * Checked print spooler service → Running
-* Identified host PC network settings → \*\*Metered Connection Enabled\*\*
+* Identified host PC network settings → **Metered Connection Enabled**
 
 
 
@@ -48,7 +48,7 @@ This is the first recorded occurrence of the issue on the host PC. The cause may
 
 
 
-**# Impact**
+\# Impact
 
 
 
@@ -61,14 +61,14 @@ This is the first recorded occurrence of the issue on the host PC. The cause may
 
 
 
-**## Resolution**
+\## Resolution
 
 
 
-* Disabled \*\*Metered Connection\*\* on host PC (printer server):
+* Disabled **Metered Connection** on host PC (printer server):
 
   1. Settings → Network \& Internet → Wi-Fi/Ethernet
-  2. Turn off "Set as metered connection"
+  2. Turn off "Set as **metered connection**"
 * Tested printing from User after applying the change
 
 
@@ -111,7 +111,12 @@ This is the first recorded occurrence of the issue on the host PC. The cause may
 * Printer sharing over network
 * Print Spooler service troubleshooting
 * Windows network settings
-* 
+
+
+
+
+
+
 
 
 
