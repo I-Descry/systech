@@ -1,4 +1,4 @@
-**##Overview**
+**## Overview**
 
 
 
@@ -48,7 +48,7 @@ This is the first recorded occurrence of the issue on the host PC. The cause may
 
 
 
-\# Impact
+**# Impact**
 
 
 
@@ -61,7 +61,7 @@ This is the first recorded occurrence of the issue on the host PC. The cause may
 
 
 
-\## Resolution
+**## Resolution**
 
 
 
