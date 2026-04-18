@@ -4,7 +4,9 @@
 
 The `ping` command is use to test network connectivity between the device and a target IP Address or hostname. It verifies whether a device is reachable over the networking using ICMP requests.
 
--------
+
+
+\-------
 
 
 
@@ -22,12 +24,14 @@ The `ping` command is use to test network connectivity between the device and a 
 \-------
 
 
+
 **## Example**
 
 
 
 `ping` <IP Address>
-`ping 192.168.1.1
+
+`ping` 192.168.1.1
 
 
 
@@ -50,13 +54,17 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-**## Results
+**## Results**
 
-# Successful Reply / Host Reachable**
+
+
+**# Successful Reply / Host Reachable**
 
 
 
 Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
+
+
 
 **# Meaning**
 
@@ -157,4 +165,8 @@ time=150ms
 * `ipconfig` → check IP address and gateway
 * `tracert` → trace network path
 * `nslookup` → test DNS resolution
+
+
+
+
 
