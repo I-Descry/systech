@@ -1,4 +1,4 @@
-**## Overview**
+**##Overview**
 
 
 
@@ -10,7 +10,7 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-**## How to Use**
+**##How to Use**
 
 
 
@@ -25,7 +25,7 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-**## Example**
+**##Example**
 
 
 
@@ -39,7 +39,7 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-**## Purpose**
+**##Purpose**
 
 
 
@@ -54,11 +54,11 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-**## Results**
+**##Results**
 
 
 
-**# Successful Reply / Host Reachable**
+**#Successful Reply / Host Reachable**
 
 
 
@@ -66,7 +66,7 @@ Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
 
 
-**# Meaning**
+**#Meaning**
 
 
 
@@ -79,7 +79,7 @@ Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
 
 
-**# Request Timed Out / No Response**
+**#Request Timed Out / No Response**
 
 
 
@@ -87,7 +87,7 @@ Request timed out.
 
 
 
-**# Meaning**
+**#Meaning**
 
 
 
@@ -106,7 +106,7 @@ Request timed out.
 
 
 
-**# High Latency / Slow Response**
+**#High Latency / Slow Response**
 
 
 
@@ -114,7 +114,7 @@ time=150ms
 
 
 
-**# Meaning**
+**#Meaning**
 
 
 
@@ -128,7 +128,7 @@ time=150ms
 
 
 
-**# Common Use Cases**
+**#Common Use Cases**
 
 
 
@@ -143,7 +143,7 @@ time=150ms
 
 
 
-**# Notes / Limitations of `ping`**
+**#Notes / Limitations of `ping`**
 
 
 
@@ -158,7 +158,7 @@ time=150ms
 
 
 
-**# Related Commands**
+**#Related Commands**
 
 
 
