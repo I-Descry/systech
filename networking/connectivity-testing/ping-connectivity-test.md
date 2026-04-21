@@ -1,167 +1,99 @@
-##### **Overview**
+# Ping Command - Network Connectivity Test
 
+## Overview
 
+The `ping` command is used to test network connectivity between a device and a target IP address or hostname. It verifies whether a device is reachable over the network using ICMP requests.
 
-The `ping` command is used to test network connectivity between the device and a target IP Address or hostname. It verifies whether a device is reachable over the networking using ICMP requests.
+---
 
-
-
-\---
-
-
-
-##### **How to Use**
-
-
+## How to Use
 
 1. Open Command Prompt (CMD)
-2. Type: `ping` *IP Address*
-3. Enter
+2. Type: `ping <IP Address>`
+3. Press Enter
 
+---
 
-
-\---
-
-
-
-##### **Example**
-
-
+## Example
 
 `ping` *IP Address*
-
 `ping` 192.168.1.1
 
+---
 
+## Purpose
 
-\---
+- Check if a device is online or reachable  
+- Test basic network connectivity  
+- Identify packet loss issues  
+- Measure latency (response time)  
 
+---
 
+## Results
 
-##### **Purpose**
-
-
-
-* Check if a device is online or reachable
-* Test basic network connection
-* Identify packet loss issues
-* Measure latency (response time)
-
-
-
-\---
-
-
-
-##### **Results**
-
-
-
-###### **Successful Reply / Host Reachable**
-
-
+### Successful Reply / Host Reachable
 
 Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
+**Meaning:**
+- Device is reachable  
+- Network connection is working  
 
+---
 
-###### **Meaning**
-
-
-
-* Device is reachable
-* Network connection is working
-
-
-
-\---
-
-
-
-###### **Request Timed Out / No Response**
-
-
+### Request Timed Out / No Response
 
 Request timed out.
 
+**Meaning:**
+- Device is unreachable  
 
+**Possible Causes:**
+- Wrong IP address  
+- Device is offline  
+- Device is powered off  
+- Network cable disconnected  
+- Firewall blocking ICMP  
 
-###### **Meaning**
+---
 
+### High Latency / Slow Response
 
+Reply from 192.168.1.1: bytes=32 time=150ms TTL=64
 
-* Device is unreachable
-* Possible Causes:
+**Meaning:**
+- Slow or unstable network  
+- Possible congestion  
+- Wi-Fi issues  
 
-  1. Wrong IP address
-  2. Device is offline
-  3. Device is powered off
-  4. Network cable disconnected
-  5. Firewall blocking ICMP
+---
 
+## Common Use Cases
 
+- Checking printer connectivity (host and client)  
+- Verifying server accessibility  
+- Testing LAN connection  
+- Performing basic network troubleshooting  
 
-\---
+---
 
+## Notes / Limitations of `ping`
 
+- `ping` only tests basic network connectivity (Layer 3 - ICMP)  
+- Some devices block ICMP requests for security reasons  
+- A successful `ping` does **not** guarantee that services are working (printer, web browser, database, etc.)
 
-###### **High Latency / Slow Response**
+---
 
+## Related Commands
 
+- `ipconfig` → Check IP address and default gateway  
+- `tracert` → Trace the path packets take to a destination  
+- `nslookup` → Test DNS resolution  
 
-time=150ms
+---
 
+## Author Notes
 
-
-###### **Meaning**
-
-
-
-* Slow or unstable network
-* Possible congestion
-* Wi-Fi issue
-
-
-
-\---
-
-
-
-##### **Common Use Cases**
-
-
-
-* Checking printer connectivity (host and user connection)
-* Verifying server accessibility
-* Testing LAN connection
-* Basic network troubleshooting
-
-
-
-\---
-
-
-
-##### **Notes / Limitations of `ping`**
-
-
-
-* `ping` command only tests basic network connectivity (Layer 3 - ICMP)
-* Some device block `ping` (ICMP request) for security reasons
-* A successful `ping` does **NOT** guarantee services are 100% working (printer, web server, database, etc.)
-* `ping` does not test application-test issues
-
-
-
-\---
-
-
-
-##### **Related Commands**
-
-
-
-* `ipconfig` → check if IP address and gateway
-* `tracert` → trace network path
-* `nslookup` → test DNS resolution
-
+This document is intended for basic network troubleshooting and IT support reference :D
