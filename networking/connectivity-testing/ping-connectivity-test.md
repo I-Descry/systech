@@ -1,31 +1,30 @@
-**##Overview**
+##### **Overview**
 
 
 
-The `ping` command is use to test network connectivity between the device and a target IP Address or hostname. It verifies whether a device is reachable over the networking using ICMP requests.
+The `ping` command is used to test network connectivity between the device and a target IP Address or hostname. It verifies whether a device is reachable over the networking using ICMP requests.
 
 
 
-\-------
+\---
 
 
 
-**##How to Use**
+##### **How to Use**
 
 
 
 1. Open Command Prompt (CMD)
-2. Type:
-`ping` *IP address*
+2. Type: `ping` *IP Address*
 3. Enter
 
 
 
-\-------
+\---
 
 
 
-**##Example**
+##### **Example**
 
 
 
@@ -35,11 +34,11 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-\-------
+\---
 
 
 
-**##Purpose**
+##### **Purpose**
 
 
 
@@ -50,15 +49,15 @@ The `ping` command is use to test network connectivity between the device and a 
 
 
 
-\-------
+\---
 
 
 
-**##Results**
+##### **Results**
 
 
 
-**#Successful Reply / Host Reachable**
+###### **Successful Reply / Host Reachable**
 
 
 
@@ -66,7 +65,7 @@ Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
 
 
-**#Meaning**
+###### **Meaning**
 
 
 
@@ -79,7 +78,7 @@ Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
 
 
-**#Request Timed Out / No Response**
+###### **Request Timed Out / No Response**
 
 
 
@@ -87,7 +86,7 @@ Request timed out.
 
 
 
-**#Meaning**
+###### **Meaning**
 
 
 
@@ -106,7 +105,7 @@ Request timed out.
 
 
 
-**#High Latency / Slow Response**
+###### **High Latency / Slow Response**
 
 
 
@@ -114,7 +113,7 @@ time=150ms
 
 
 
-**#Meaning**
+###### **Meaning**
 
 
 
@@ -124,11 +123,11 @@ time=150ms
 
 
 
-\-------
+\---
 
 
 
-**#Common Use Cases**
+##### **Common Use Cases**
 
 
 
@@ -139,34 +138,30 @@ time=150ms
 
 
 
-\-------
+\---
 
 
 
-**#Notes / Limitations of `ping`**
+##### **Notes / Limitations of `ping`**
 
 
 
 * `ping` command only tests basic network connectivity (Layer 3 - ICMP)
-* Some devices block `ping` (ICMP request) for security reasons
-* A successful `ping` does NOT guarantee services are 100% working (printer, web server, database, etc.)
-* `ping` does not test application-level issues
+* Some device block `ping` (ICMP request) for security reasons
+* A successful `ping` does **NOT** guarantee services are 100% working (printer, web server, database, etc.)
+* `ping` does not test application-test issues
 
 
 
-\-------
+\---
 
 
 
-**#Related Commands**
+##### **Related Commands**
 
 
 
-* `ipconfig` → check IP address and gateway
+* `ipconfig` → check if IP address and gateway
 * `tracert` → trace network path
 * `nslookup` → test DNS resolution
-
-
-
-
 
