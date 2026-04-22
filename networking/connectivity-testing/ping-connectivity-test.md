@@ -16,7 +16,7 @@ The `ping` command is used to test network connectivity between a device and a t
 
 ## Example
 
-`ping` *IP Address*
+`ping` *IP Address or hostname*
 `ping` 192.168.1.1
 
 ---
@@ -37,8 +37,15 @@ The `ping` command is used to test network connectivity between a device and a t
 Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 
 **Meaning:**
+
 - Device is reachable  
 - Network connection is working  
+
+**Possible Causes:**
+
+- Low latency (<1ms) indicates local network (LAN) connection
+- Stable replies suggest no packet loss
+- TTL value can help identify OS or network hops
 
 ---
 
@@ -47,14 +54,18 @@ Reply from 192.168.1.1: bytes=32 time<1ms TTL=64
 Request timed out.
 
 **Meaning:**
+
 - Device is unreachable  
 
 **Possible Causes:**
+
 - Wrong IP address  
 - Device is offline  
 - Device is powered off  
 - Network cable disconnected  
-- Firewall blocking ICMP  
+- Firewall blocking ICMP
+- ICMP disabled on the target device
+- Network congestion causing packet drops
 
 ---
 
@@ -63,9 +74,57 @@ Request timed out.
 Reply from 192.168.1.1: bytes=32 time=150ms TTL=64
 
 **Meaning:**
+
 - Slow or unstable network  
 - Possible congestion  
 - Wi-Fi issues  
+
+**Possible Causes:**
+
+- Network congestion (high traffic)
+- Weak Wi-Fi signal or interference
+- High bandwidth usage (download/streaming)
+- Faulty network cable or hardware
+- Router or switch performance issues
+- ISP-related latency (for external IPs)
+- Long-distance routing (WAN connections)
+
+---
+
+### Destination Host Unreachable
+
+Reply from 192.168.1.10: Destination host unreachable
+
+**Meaning:**
+
+- The local device cannot find a route to the target
+
+**Possible Causes:**
+
+- Incorrect IP Address or subnet mismatch
+- Default gateway not configured or unreachable
+- Device is on a different network/VLAN
+- Routing issues in the network
+- ARP resolution failure
+
+---
+
+### General Failure (Windows)
+
+Ping request could not find host / General failure
+
+**Meaning:**
+
+- Local system issue
+- Configuration error
+
+**Possible Causes:**
+
+- Network adapter problem
+- Incorrect TCP/IP configuration
+- DNS resolution failure (for hostname)
+- Disabled or misconfigured network interference
+- Corrupted network stack
 
 ---
 

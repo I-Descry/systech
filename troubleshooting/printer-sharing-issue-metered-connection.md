@@ -1,122 +1,68 @@
-**## Overview**
+# Printer Sharing Issue - Metered Connection
 
-
+## Overview
 
 A desktop were unable to print to a shared network printer because the host PC (printer server) was configured with **Metered Network Connection**.
 
+---
 
+## Issue Description
 
-\-------
+Users were unable to print to the host PC (printer server). Although the printer appeared online, no print jobs were processed.
 
+---
 
+## Scope / Impact
 
-**## Issue Description**
+- **Affected:** Multiple Users
+- **Setup:** Shared printer via host PC (printer server)
+- **Impact:** Users unable to print over the network
 
+---
 
+## Analysis / Troubleshooting Steps
 
-* Users cannot send print jobs to the shared printer
-* Printer appears online but there is no print job process
-* Other devices are connected to the network but printing fails
+- Checked printer status on host PC (printer server) → Online
+- Verified network connectivity between host and users → Same network
+- Tested `ping` between devices → Successful
+- Checked **Print Spooler service via `service.msc` → Running
+- Identified host PC (printer server) network configuration → **Metered Connection Enabled**
 
+---
 
+## Resolution
 
-\-------
+- Disabled **Metered Connection** on the host PC (printer server):
+  - Settings → Network & Internet → Wi-Fi/Ethernet
+  - Turn off **Set as metered connection**
+- Verified network communication between devices
+- Retested printing from user devices
 
+---
 
+## Outcome
 
-**## Analysis**
+- Printer became accessible to all users
+- Print jobs processed successfully
+- Network printing functionality restored
 
+---
 
+## Root Cause
 
-* Checked printer status on host PC → Online
-* Verified both host PC and Users network connectivity → Same network connectivity
-* Tested `ping` between devices → Successful
-* Checked print spooler service → Running
-* Identified host PC network settings → **Metered Connection Enabled**
+Metered network configuration on the host PC (printer server) restricting network services, preventing proper sharing and communication.
 
+---
 
+## Recommendations
 
-\-------
+- Avoid enabling **Metered Connection** on systems acting as print servers
+- Ensure shared resources are on unrestricted network profiles
+- Standardize network configurations for shared devices
 
+---
 
+## Notes
 
-**## Root Cause (Suspected)**
-
-
-
-This is the first recorded occurrence of the issue on the host PC. The cause may be related to a system-level or network configuration change.
-
-
-
-**# Impact**
-
-
-
-* Print job process
-* Communication between host PC (printer server) and User
-
-
-
-\-------
-
-
-
-**## Resolution**
-
-
-
-* Disabled **Metered Connection** on host PC (printer server):
-
-  1. Settings → Network \& Internet → Wi-Fi/Ethernet
-  2. Turn off "Set as **metered connection**"
-* Tested printing from User after applying the change
-
-
-
-\-------
-
-
-
-**## Outcome**
-
-
-
-* Printer became accessible to all Users
-* Print jobs processed normally
-* Network printing functionality restored
-
-
-
-\-------
-
-
-
-**## Notes / Prevention**
-
-
-
-* Ensure host PC (server printer) used as print servers are not set to Metered Connection
-* Avoid restricting network services on shared resources
-
-
-
-\-------
-
-
-
-**## Related Topics**
-
-
-
-* Printer sharing over network
-* Print Spooler service troubleshooting
-* Windows network settings
-
-
-
-
-
-
-
-
-
+- Issue was **network configuration-related**, not printer or driver issue
+- Metered connection can limit background services, including printer sharing

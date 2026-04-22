@@ -2,31 +2,41 @@
 
 ## Overview
 
-A desktop workstation at a remote branch encountered an issue where the Epson L3250 printer displayed an *Offline* status, preventing normal printing operations.
+A desktop (remote branch) was unable to print documents due to the printer displayed an **Offline** status, preventing the user on its normal printing operations.
 
 ---
 
 ## Issue Description
 
-Although the printer was properly installed, it appeared as **"Offline"** on the desktop, making it unavailable for print jobs.
+The printer was displayed as **Offline** status on the desktop (remote branch), making it unavailable for print jobs.
 
 ---
 
-## Analysis
+## Scope / Impact
+
+- **Affected:** Single workstation (remote branch)
+- **Device:** Epson L3250 Printer
+- **Impact:** Unable to print documents
+
+---
+
+## Analysis / Troubleshooting Steps
 
 - Checked printer status on the desktop (remote branch)
-- Verified physical and network connectivity
+- Verified printer was:
+  - Powered on
+  - Properly connected (USB / Network)
 - Confirmed no hardware issues with the printer
 - Restarted the Print Spooler service via `services.msc`
-- Observed that the issue persisted after initial troubleshooting
-- Identified a potential printer driver issue causing the offline status
+- Identified issue persists after basic troubleshooting
+- Suspected **printer driver issue or misconfiguration**
 
 ---
 
 ## Resolution
 
-- Restarted the Print Spooler service
-- Reinstalled the Epson L3250 printer driver
+- Restarted the Print Spooler service via `services.msc`
+- Removed and reinstalled the **Epson L3250 printer driver**
 - Reconfigured printer settings on the desktop
 - Restarted the system to apply changes
 - Verified printer connectivity and status
@@ -53,3 +63,10 @@ Corrupted or misconfigured printer driver causing the system to incorrectly dete
 - Avoid abrupt system shutdowns that may corrupt drivers
 - Periodically restart the Print Spooler service if issues arise
 - Maintain a backup of working printer drivers for quick reinstallation
+
+---
+
+## Notes
+
+- Issue was **driver-related**, not network or hardware
+- Successful restoration confirms printer and connectivity were functioning correctly
