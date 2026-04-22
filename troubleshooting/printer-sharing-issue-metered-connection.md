@@ -25,7 +25,7 @@ Users were unable to print to the host PC (printer server). Although the printer
 - Checked printer status on host PC (printer server) → Online
 - Verified network connectivity between host and users → Same network
 - Tested `ping` between devices → Successful
-- Checked **Print Spooler service via `service.msc` → Running
+- Checked **Print Spooler service via `service.msc`** → Running
 - Identified host PC (printer server) network configuration → **Metered Connection Enabled**
 
 ---
