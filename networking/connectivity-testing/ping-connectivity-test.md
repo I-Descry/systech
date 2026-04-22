@@ -94,6 +94,6 @@ Reply from 192.168.1.1: bytes=32 time=150ms TTL=64
 
 ---
 
-## Author Notes
+## Notes
 
 This document is intended for basic network troubleshooting and IT support reference :D

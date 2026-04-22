@@ -1,64 +1,76 @@
-**## Overview**
+# Browser Printing Issue via SSO
 
+## Overview
 
+A desktop (remote branch) was unable to print documents from a browser-based application accessed via Single Sign-On (SSO).
 
-A desktop (remote branch) was unable to print documents from a browser-based application accessed via SSO.
+---
 
+## Issue Description
 
+The browser print dialog appeared normally, but no print job was processed after confirming the print action, preventing user from printing documents.
 
-\-------
+---
 
+## Scope / Impact
 
+- **Affected:** Single user (remote branch)
+- **System:** Browser-based Single Sign-On (SSO) application
+- **Browser:** Google Chrome & Microsoft Edge
+- **Impact:** User unable to print documents
 
-**## Issue Description**
+---
 
+## Analysis / Troubleshooting Steps
 
+- Checked **Print Spooler service** via `services.msc`
+- Verified printer status:
+  - Installed correctly  
+  - Set as default  
+  - Online and reachable
+- Tested printing outside the Google Chrome and Microsoft Edge browser (Test Page) → Working
+- Tested printing across multiple browsers → Not Working
+- Confirmed the issue was isolated to browser-based printing only (Google Chrome & Microsoft Edge)
+- Identified a potential browser-related issue (cache or extension interference)
+- Reviewed browser environment:
+  - Cache and stored data
+  - Installed extensions
 
-The browser print dialog appeared normally, but no print job was processed after confirming the print action, preventing the user from printing documents.
+---
 
+## Resolution
 
+- Disabled or removed unnecessary **browser extensions**
+- Restarted the browser
+- Retested printing functionality within the browser
 
-\-------
+---
 
+## Outcome
 
+- Browser-based printing was successfully restored
+- Print jobs were processed correctly from the SSO application
+- User regained full printing functionality on the desktop
 
-**## Analysis**
+---
 
+## Root Cause
 
+Browser cache corruption or conflicting extensions interfering with print processing.
 
-* Checked Print Spooler service via `services.msc`
-* Verified printer connectivity on the desktop (remote branch)
-* Confirmed issue was isolated to browser-related printing (Google Chrome), not the printer or system itself
-* Identified possible browser-related issue (cache or extension interference)
+---
 
+## Recommendation
 
+- Avoid installing unnecessary browser extensions
+- Regularly review and manage installed browser extensions
+- Regularly clear browser cache for shared or frequently used systems
+- Limit unnecessary browser extensions in production environments
+- Keep browsers updated to avoid compatibility issues
 
-\-------
+---
 
+## Notes
 
-
-**## Resolution**
-
-
-
-* Restarted Print Spooler service
-* Cleared browser cache and stored data
-* Disabled and removed background browser extensions
-* Retested printing functionality within the browser
-
-
-
-\-------
-
-
-
-**## Outcome**
-
-
-
-* Browser-based printing successfully restored
-* Print jobs were processed correctly from the SSO system
-* User regained full printing functionality on the desktop (remote branch)
-
-
-
+- Issue is **browser-related**, not printer hardware or network
+- Successful test page confirms printer and driver are working properly
