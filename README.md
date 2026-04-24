@@ -9,8 +9,8 @@ A collection of technical notes, troubleshooting cases, configurations, referenc
 - **Troubleshooting Cases** → documented real-world issues and resolutions
 - **Networking Notes** → Network concepts, commands, and diagnostics
 - **Scripts** → basic scripts for automation and efficiency
-- **System Setup References** - installation and configuration guides
-- **General Notes** - additional technical learnings and references
+- **System Setup References** → installation and configuration guides
+- **General Notes** → additional technical learnings and references
 
 ---
 
