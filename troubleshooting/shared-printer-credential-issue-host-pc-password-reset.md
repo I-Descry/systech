@@ -43,6 +43,7 @@ Users were unable to connect to the host PC (shared printer). When attempting to
 
 ```cmd
 net user USER newpassword
+```
 
 - Updated saved credentials on the remote user's desktop using **Credential Manager**
 - Reconnected to the shared resource using:
