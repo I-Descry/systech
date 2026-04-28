@@ -23,13 +23,13 @@ Users were unable to connect to the host PC (shared printer). When attempting to
 
 ## Analysis / Troubleshooting Steps
 
-- Verified printer was physically connected to the host PC (server printer)
+- Verified printer was physically connected to the host PC (printer server)
 - Confirmed printer sharing was enabled on the host PC (server printer)
 - Tested network connectivity between remote user and host PC → Working
 - Verified hostname access using:
   - `\\hostname` or `\\IP Address` → Credential prompt appeared
 - Identified authentication failure due to invalid saved credentials
-- Changed remote control from user to host PC (server printer)
+- Changed remote control from user to host PC (printer server)
 - Checked the host PC local administrator account credentials
 - Confirmed the administrator password has been changed or reset
 
