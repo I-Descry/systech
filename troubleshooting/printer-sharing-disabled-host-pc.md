@@ -26,7 +26,7 @@ Users were unable to send print jobs to the shared network printer. Although the
 - Verified printer was powered on and functioning locally on the host PC (printer server)
 - Confirmed network connectivity between remote users and the host PC (printer server) → Working
 - Tested printer access using 
-  - `\\hostname`` or `\\IP Address` → Printer not accessible
+  - `\\hostname`` or ``\\IP Address`` → Printer not accessible
 - Checked **Device and Printers** on the host PC (printer server)
 - Opened **Printer Properties** → **Sharing** tab
 - Identified that the option **Shared this printer** was unchecked
