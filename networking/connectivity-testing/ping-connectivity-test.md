@@ -16,8 +16,10 @@ The `ping` command is used to test network connectivity between a device and a t
 
 ## Example
 
-`ping` *IP Address or hostname*
-`ping` 192.168.1.1
+```cmd
+ping IP Address or hostname
+ping 192.168.1.1
+```
 
 ---
 
