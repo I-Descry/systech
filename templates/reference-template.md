@@ -4,7 +4,7 @@
 
 [Brief explanation of what the tool is and what it does in IT context]
 
-[Main purpose]s
+[Main purpose]
 
 ---
 
