@@ -13,6 +13,7 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
 #### Categories
 
 - **01-Hardware**
+  -
 
 - **02-Network**
   - Ping Command - Network Connectivity Troubleshooting Guide
@@ -25,12 +26,18 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
   - Shared Printer Credential Issue - Credential Authentication Required
 
 - **04-Reference**
+  -
 
 - **05-Software**
   - Browser Printing Issue - SSO
 
 - **06-System Administration**
 
+  **User Management**
+  -
+
+  **Windows Management**
+  - Insufficient Storage Issue - Disk Space Cleanup Using TreeSize
 ---
 
 ### 📁 scripts/
