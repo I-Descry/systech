@@ -4,7 +4,7 @@
 
 [Brief explanation of what the tool is and what it does in IT context]
 
-It is used in system administration and IT support for [main purpose].
+[Main purpose].
 
 ---
 
