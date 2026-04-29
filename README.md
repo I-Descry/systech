@@ -15,7 +15,7 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
 - **01-Hardware**
 
 - **02-Network**
-  - Ping Connectivity Test
+  - Ping Command - Network Connectivity Troubleshooting Guide
 
 - **03-Printing**
   - Epson L3250 Printer Offline Issue - Driver Fix
