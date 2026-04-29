@@ -1,29 +1,110 @@
 # systech
 
-A collection of technical notes, troubleshooting cases, configurations, references and scripts, etc. related to System Administration and IT Support.
+A collection of technical notes, troubleshooting cases, system configurations, references and scripts, etc. related to Network/System Administration, IT Support and daily operational tasks.
 
 ---
 
-## Contents
+## Repository Structure
 
-- **Troubleshooting Cases** → documented real-world issues and resolutions
-- **Networking Notes** → Network concepts, commands, and diagnostics
-- **Scripts** → basic scripts for automation and efficiency
-- **System Setup References** → installation and configuration guides
-- **General Notes** → additional technical learnings and references
+### 📁 docs/
+
+Documentation, Troubleshooting guides, SOPs, and technical references.
+
+#### Categories
+
+- **01-Hardware**
+
+- **02-Network**
+  - Ping Connectivity Test
+
+- **03-Printing**
+  - Epson L3250 Offline Driver Fix
+  - Printer Sharing Disabled on Host PC
+  - Printer Sharing Issue - Metered Connection
+  - Remote Branch Printer Credential Access
+  - Shared Printer Credential Issue - Host PC Password Reset
+
+- **04-Reference**
+
+- **05-Software**
+  - Browser Printing Issue - SSO
+
+- **06-System Administration**
+
+---
+
+### 📁 scripts/
+
+Reusable scripts for administrative 
+
+#### Categories
+
+- **Maintenance**
+  - System Cleanup
+  - System Repair Check
+
+- **Network**
+  - Flush DNS
+  - IP Config - Basic
+  - IP Config - Full
+  - Refresh Network
+
+- **Printing**
+  - Restart Print Spooler
+
+- **User Management**
+  - Add to Administrator Group
+  - Add to User Group
+  - Disable Hidden Administrator User
+  - Enable Hidden Administrator User
+  - Remove to Administrator Group
+  - Remove to User Group
+
+---
+
+### 📁 assets/
+
+Supporting files such as:
+
+- Screenshots
+- Printer Test Pages
+- Diagrams
+- Configuration References
+
+---
+
+### 📁template.
+
+Standardized documentation templates for:
+
+- Troubleshooting cases
+- Incident reports
+- SOP (Standard Operating Procedure)
+- Administrative procedures
 
 ---
 
 ## Purpose
 
-This is a structured repository servers as a structured knowledge base for:
+This is a structured repository serves as a structured knowledge base for:
 
-- Documenting system issues and their resolutions
-- Tracking troubleshooting experience
-- Storing reusable scripts and configurations
-- Supporting continuous learning in IT and System Administration
-- Networking Notes
-- System Setup References
+- Documenting real-world system issues and resolutions
+- Building structured troubleshooting references
+- Storing reusable administrative scripts
+- Standardizing IT support procedures
+- Improving operational efficiency
+- Continuous learning in IT Support and System Administration
+
+---
+
+## Long-Term Goal
+
+To continuously gain hands-on experience and practical knowledge in IT Support, Networking, and System Administration through real-world troubleshooting, system maintenance, and operational tasks.
+## Long-Term Goal
+
+The long-term objective is to build strong technical expertise and professional readiness for future roles in Network/System Administration and ultimately System Engineering.
+
+This repository serves as both a personal knowledge base and a growing portfolio that reflects continuous learning, problem-soling, and career development toward becoming a future System Engineer.
 
 ---
 
