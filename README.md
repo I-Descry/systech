@@ -26,6 +26,9 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
 
 - **04-Reference**
 
+  **Tools**
+  - TreeSize - Disk Usage Analysis Tool
+
 - **05-Software**
   - Browser Printing Issue - SSO
 
