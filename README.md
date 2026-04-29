@@ -18,11 +18,11 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
   - Ping Connectivity Test
 
 - **03-Printing**
-  - Epson L3250 Offline Driver Fix
-  - Printer Sharing Disabled on Host PC
-  - Printer Sharing Issue - Metered Connection
-  - Remote Branch Printer Credential Access
-  - Shared Printer Credential Issue - Host PC Password Reset
+  - Epson L3250 Printer Offline Issue - Driver Fix
+  - Shared Printer Access Issue - Host PC Password Reset
+  - Shared Printer Access Issue - Metered Connection on Host PC
+  - Shared Printer Access Issue - Sharing Disabled on Host PC
+  - Shared Printer Credential Issue - Credential Authentication Required
 
 - **04-Reference**
 
@@ -73,7 +73,7 @@ Supporting files such as:
 
 ---
 
-### 📁template.
+### 📁template/
 
 Standardized documentation templates for:
 
@@ -100,7 +100,6 @@ This is a structured repository serves as a structured knowledge base for:
 ## Long-Term Goal
 
 To continuously gain hands-on experience and practical knowledge in IT Support, Networking, and System Administration through real-world troubleshooting, system maintenance, and operational tasks.
-## Long-Term Goal
 
 The long-term objective is to build strong technical expertise and professional readiness for future roles in Network/System Administration and ultimately System Engineering.
 

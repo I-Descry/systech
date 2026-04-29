@@ -1,4 +1,4 @@
-# Printer Sharing Issue - Metered Connection
+# Shared Printer Access Issue - Metered Connection on Host PC
 
 ## Overview
 

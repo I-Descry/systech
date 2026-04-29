@@ -1,4 +1,4 @@
-# Shared Printer Access Issue - Printer Sharing Disabled
+# Shared Printer Access Issue - Sharing Disabled on Host PC
 
 ## Overview
 

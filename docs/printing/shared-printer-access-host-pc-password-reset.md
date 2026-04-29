@@ -1,4 +1,4 @@
-# Remote Printer Access Issue - Host PC Password Reset
+# Shared Printer Access Issue - Host PC Password Reset
 
 ## Overview
 

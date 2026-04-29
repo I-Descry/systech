@@ -1,4 +1,4 @@
-# Ping Command - Network Connectivity Test
+# Ping Command - Network Connectivity Troubleshooting Guide
 
 ## Overview
 
@@ -19,6 +19,7 @@ The `ping` command is used to test network connectivity between a device and a t
 ```cmd
 ping IP Address or hostname
 ping 192.168.1.1
+ping google.com
 ```
 
 ---

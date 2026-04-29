@@ -1,4 +1,4 @@
-# Remote Branch Printer Credential Access Issue
+# Shared Printer Access Issue - Credential Authentication Required
 
 ## Overview
 

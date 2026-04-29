@@ -1,4 +1,4 @@
-# Offline Printer Driver Status – Epson L3250
+# Epson L3250 Printer Offline Issue - Driver Fix
 
 ## Overview
 

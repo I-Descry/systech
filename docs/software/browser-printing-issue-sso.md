@@ -1,4 +1,4 @@
-# Browser Printing Issue via SSO
+# SSO Browser Printing Issue - SSO Application (Chrome/Microsoft Edge)
 
 ## Overview
 
