@@ -18,17 +18,17 @@ It is not just documentation - it is also a structured approach to understanding
 
 --- 
 
-# 🏗️ Repository Structure
+## 🏗️ Repository Structure
 
-## 📁 00-core-foundations/
+### 📁 00-core-foundations/
 Fundamental concepts of operating systems, networking, and system architecture.
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 01-system-behavior/
+### 📁 01-system-behavior/
 Focuses on how systems behave under conditions such as:
 
 - Storage pressure
@@ -36,12 +36,12 @@ Focuses on how systems behave under conditions such as:
 - CPU bottlenecks
 - Performance degradation patterns
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 02-infrastructure-services/
+### 📁 02-infrastructure-services/
 Covers shared and network-dependent services such as:
 
 - Printer services
@@ -49,12 +49,12 @@ Covers shared and network-dependent services such as:
 - Authentication and credential-based access
 - Host-dependent services
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 03-endpoint-systems/
+### 📁 03-endpoint-systems/
 Endpoint-level issues including user workstations and devices:
 
 - OS-level failures
@@ -62,12 +62,12 @@ Endpoint-level issues including user workstations and devices:
 - Browser-based system interactions
 - Local system performance issues
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 04-diagnostics-tooling/
+### 📁 04-diagnostics-tooling/
 Tools used for system analysis and troubleshooting:
 
 - Network diagnostics (ping, tracert)
@@ -75,24 +75,24 @@ Tools used for system analysis and troubleshooting:
 - Windows system utilities
 - PowerShell and CMD utilities
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 05-incident-engineering/
+### 📁 05-incident-engineering/
 Structured incident documentation focusing on:
 
 - Problem → Analysis → System Layer → Resolution
 - Root cause analysis
 - Service impact evaluation
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 06-automation-scripts/
+### 📁 06-automation-scripts/
 Automation scripts for system operations:
 
 - System cleanup
@@ -100,12 +100,12 @@ Automation scripts for system operations:
 - User Management
 - Service restarts
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 07-operational-reference/
+### 📁 07-operational-reference/
 Quick reference documentation for commands, tools, and configurations:
 
 - CMD commands
@@ -113,12 +113,12 @@ Quick reference documentation for commands, tools, and configurations:
 - Networking references
 - System administration notes
 
-### 📌 Files
+#### 📌 Files
 - *(to be added)*
 
 ---
 
-## 📁 assets/
+### 📁 assets/
 Supporting materials such as:
 
 - Screenshots
@@ -128,7 +128,7 @@ Supporting materials such as:
 
 ---
 
-## 📁 templates/
+### 📁 templates/
 Standardized documentation formats for:
 
 - Incident reports
@@ -138,7 +138,7 @@ Standardized documentation formats for:
 
 ---
 
-# 🎯 Long-Term Goal
+## 🎯 Long-Term Goal
 
 To build strong technical expertise in:
 
@@ -152,7 +152,7 @@ This repository serves as a structured progression of real-world IT support expe
 
 ---
 
-# 🧩 Learning Philosophy
+## 🧩 Learning Philosophy
 
 Instead of focusing only on fixes, this repository emphasizes:
 
@@ -164,7 +164,7 @@ Instead of focusing only on fixes, this repository emphasizes:
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Windows OS Administration
 - CMD
@@ -174,6 +174,6 @@ Instead of focusing only on fixes, this repository emphasizes:
 
 ---
 
-# 📌 Notes
+## 📌 Notes
 
 Continuously updated as I encounter new scenarios and learning opportunities (OAO)
