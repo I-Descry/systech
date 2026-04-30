@@ -20,15 +20,17 @@ It is not just documentation - it is also a structured approach to understanding
 
 ## 🏗️ Repository Structure
 
-### 📁 00-core-foundations/
+---
+
+## 📁 00-core-foundations/
 Fundamental concepts of operating systems, networking, and system architecture.
 
-#### 📌 Files
+### 📌 Files
 - *(to be added)*
 
 ---
 
-### 📁 01-system-behavior/
+## 📁 01-system-behavior/
 Focuses on how systems behave under conditions such as:
 
 - Storage pressure
@@ -36,12 +38,12 @@ Focuses on how systems behave under conditions such as:
 - CPU bottlenecks
 - Performance degradation patterns
 
-#### 📌 Files
+### 📌 Files
 - Insufficient Storage Issue - Disk Space Cleanup Using TreeSize
 
 ---
 
-### 📁 02-infrastructure-services/
+## 📁 02-infrastructure-services/
 Covers shared and network-dependent services such as:
 
 - Printer services
@@ -49,7 +51,7 @@ Covers shared and network-dependent services such as:
 - Authentication and credential-based access
 - Host-dependent services
 
-#### 📌 Files
+### 📌 Files
 - Shared Printer Access Issue - Host PC Password Reset
 - Shared Printer Access Issue - Credential Authentication Required
 - Shared Printer Access Issue - Metered Connection on Host PC
@@ -57,7 +59,7 @@ Covers shared and network-dependent services such as:
 
 ---
 
-### 📁 03-endpoint-systems/
+## 📁 03-endpoint-systems/
 Endpoint-level issues including user workstations and devices:
 
 - OS-level failures
@@ -65,13 +67,13 @@ Endpoint-level issues including user workstations and devices:
 - Browser-based system interactions
 - Local system performance issues
 
-#### 📌 Files
+### 📌 Files
 - SSO Browser Printing Issue - SSO Application (Chrome/Microsoft Edge)
 - Epson L3250 Printer Offline Issue - Driver Fix
 
 ---
 
-### 📁 04-diagnostics-tooling/
+## 📁 04-diagnostics-tooling/
 Tools used for system analysis and troubleshooting:
 
 - Network diagnostics (ping, tracert)
@@ -79,26 +81,26 @@ Tools used for system analysis and troubleshooting:
 - Windows system utilities
 - PowerShell and CMD utilities
 
-#### 📌 Files
+### 📌 Files
 - Ping Command - Network Connectivity Troubleshooting Guide
 - TreeSize - Disk Usage Analysis Tool
 
 ---
 
-### 📁 05-incident-engineering/
+## 📁 05-incident-engineering/
 Structured incident documentation focusing on:
 
 - Problem → Analysis → System Layer → Resolution
 - Root cause analysis
 - Service impact evaluation
 
-#### 📌 Files
+### 📌 Files
 - Local User Account Password Expiration Issue - Login Failure
 - User Password Reset - Local Account via Hidden Administrator Account
 
 ---
 
-### 📁 06-automation-scripts/
+## 📁 06-automation-scripts/
 Automation scripts for system operations:
 
 - System cleanup
@@ -106,36 +108,36 @@ Automation scripts for system operations:
 - User Management
 - Service restarts
 
-#### 📁 network
+## 📁 network
 
-#### 📌 Files
+### 📌 Files
 - Flush DNS Cache
 - Display IP Configuration (Basic)
 - Display IP Configuration (Full)
 - Refresh Network IP (Release/Renew)
 
-#### 📁 printing
+## 📁 printing
 
-#### 📌 Files
+### 📌 Files
 - Restart Print Spooler
 
-#### 📁 system
+## 📁 system
 
 #### 📌 Files
 - System Cleanup - Temporary Files and Cache Removal
 - Windows System Repair (SFC, DISM, CHKDSK)
 
-#### 📁 user-management
+## 📁 user-management
 
-#### 📁 administrator-account
+## 📁 administrator-account
 
-#### 📌 Files
+### 📌 Files
 - Enable Built-in Administrator Account (Local System)
 - Disable Built-in Administrator Account (Local System)
 
-#### 📁 group-management
+## 📁 group-management
 
-#### 📌 Files
+### 📌 Files
 - Add Current User to Administrators Group
 - Add Current User to Users Group
 - Remove Current User from Administrators Group
@@ -143,7 +145,7 @@ Automation scripts for system operations:
 
 ---
 
-### 📁 07-operational-reference/
+## 📁 07-operational-reference/
 Quick reference documentation for commands, tools, and configurations:
 
 - CMD commands
@@ -151,12 +153,12 @@ Quick reference documentation for commands, tools, and configurations:
 - Networking references
 - System administration notes
 
-#### 📌 Files
+### 📌 Files
 - *(to be added)*
 
 ---
 
-### 📁 assets/
+## 📁 assets/
 Supporting materials such as:
 
 - Screenshots
@@ -166,7 +168,7 @@ Supporting materials such as:
 
 ---
 
-### 📁 templates/
+## 📁 templates/
 Standardized documentation formats for:
 
 - Incident reports
@@ -174,7 +176,7 @@ Standardized documentation formats for:
 - Technical references
 - Script documentation
 
-#### 📌 Files
+### 📌 Files
 - Incident Report Template
 - Tool Reference Template
 
