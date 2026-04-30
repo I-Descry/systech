@@ -37,7 +37,7 @@ Focuses on how systems behave under conditions such as:
 - Performance degradation patterns
 
 #### 📌 Files
-- *(to be added)*
+- Insufficient Storage Issue - Disk Space Cleanup Using TreeSize
 
 ---
 
@@ -50,7 +50,10 @@ Covers shared and network-dependent services such as:
 - Host-dependent services
 
 #### 📌 Files
-- *(to be added)*
+- Shared Printer Access Issue - Host PC Password Reset
+- Shared Printer Access Issue - Credential Authentication Required
+- Shared Printer Access Issue - Metered Connection on Host PC
+- Shared Printer Access Issue - Sharing Disabled on Host PC
 
 ---
 
@@ -63,7 +66,8 @@ Endpoint-level issues including user workstations and devices:
 - Local system performance issues
 
 #### 📌 Files
-- *(to be added)*
+- SSO Browser Printing Issue - SSO Application (Chrome/Microsoft Edge)
+- Epson L3250 Printer Offline Issue - Driver Fix
 
 ---
 
@@ -76,7 +80,8 @@ Tools used for system analysis and troubleshooting:
 - PowerShell and CMD utilities
 
 #### 📌 Files
-- *(to be added)*
+- Ping Command - Network Connectivity Troubleshooting Guide
+- TreeSize - Disk Usage Analysis Tool
 
 ---
 
@@ -88,7 +93,8 @@ Structured incident documentation focusing on:
 - Service impact evaluation
 
 #### 📌 Files
-- *(to be added)*
+- Local User Account Password Expiration Issue - Login Failure
+- User Password Reset - Local Account via Hidden Administrator Account
 
 ---
 
@@ -100,8 +106,40 @@ Automation scripts for system operations:
 - User Management
 - Service restarts
 
+#### 📁 network
+
 #### 📌 Files
-- *(to be added)*
+- Flush DNS Cache
+- Display IP Configuration (Basic)
+- Display IP Configuration (Full)
+- Refresh Network IP (Release/Renew)
+
+#### 📁 printing
+
+#### 📌 Files
+- Restart Print Spooler
+
+#### 📁 system
+
+#### 📌 Files
+- System Cleanup - Temporary Files and Cache Removal
+- Windows System Repair (SFC, DISM, CHKDSK)
+
+#### 📁 user-management
+
+#### 📁 administrator-account
+
+#### 📌 Files
+- Enable Built-in Administrator Account (Local System)
+- Disable Built-in Administrator Account (Local System)
+
+#### 📁 group-management
+
+#### 📌 Files
+- Add Current User to Administrators Group
+- Add Current User to Users Group
+- Remove Current User from Administrators Group
+- Remove Current User from to Users Group
 
 ---
 
@@ -135,6 +173,10 @@ Standardized documentation formats for:
 - SOPs
 - Technical references
 - Script documentation
+
+#### 📌 Files
+- Incident Report Template
+- Tool Reference Template
 
 ---
 
