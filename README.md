@@ -35,6 +35,7 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
 - **06-System Administration**
 
   **User Management**
+  - User Password Reset - Local Account via Hidden Administrator Account
 
   **Windows Management**
   - Insufficient Storage Issue - Disk Space Cleanup Using TreeSize
