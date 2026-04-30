@@ -35,6 +35,7 @@ Documentation, Troubleshooting guides, SOPs, and technical references.
 - **06-System Administration**
 
   **User Management**
+  - Local User Account Password Expiration Issue - Login Failure
   - User Password Reset - Local Account via Hidden Administrator Account
 
   **Windows Management**
