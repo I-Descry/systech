@@ -1,203 +1,109 @@
-\# SOP - \[Process Title]
+# SOP - [Process Title]
 
+---
 
-
-\---
-
-
-
-\## Overview
-
+## Overview
 Brief description of the process.
 
+---
 
-
-\---
-
-
-
-\## Purpose
-
+## Purpose
 Why this process exists and what it ensures.
 
+---
 
-
-\---
-
-
-
-\## Scope
-
+## Scope
 Where and when this process applies.
 
+---
 
+## Roles & Responsibility
+**IT/Admin** Performs the process
+**User (if applicable):** Receives or validates
 
-\---
+---
 
-
-
-\## Roles \& Responsibility
-
-* \*\*IT/Admin\*\* Performs the process
-* \*\*User (if applicable):\*\* Receives or validates
-
-
-
-\---
-
-
-
-\## Inputs / Preconditions
-
+## Inputs / Preconditions
 What must be available before starting:
 
+Device / system ready
+Required access (admin, BIOS, etc.)
+Network connection (if needed)
 
+---
 
-* Device / system ready
-* Required access (admin, BIOS, etc.)
-* Network connection (if needed)
-
-
-
-\---
-
-
-
-\## Workflow / Procedure
-
-
+## Workflow / Procedure
 
 Step-by-step process:
 
+Step 1
+Step 2
+Step 3
 
+---
 
-1. Step 1
-2. Step 2
-3. Step 3
-
-
-
-\---
-
-
-
-\## Configuration Details
-
-
+## Configuration Details
 
 Commands, settings, and configurations used.
 
-
-
 Example command
 
+---
 
+## Expected Output
 
-\---
+Device is fully configured
+User access is correct
+System is secure and ready
 
+---
 
+## Security Considerations
 
-\## Expected Output
+Risks involved
+Controls implemented
+Access restrictions
 
+---
 
+## Dependencies
 
-* Device is fully configured
-* User access is correct
-* System is secure and ready
+Required tools
+Required access
+System requirements
 
+---
 
+## Common Issues
 
-\---
+Issue → Fix
+Issue → Fix
 
+---
 
+## Troubleshooting
 
-\## Security Considerations
+What to check when things fail
+Recovery steps
 
+---
 
+## Related Documents
 
-* Risks involved
-* Controls implemented
-* Access restrictions
+Incident reports
+Other SOPs
+Total references
 
+---
 
-
-\---
-
-
-
-\## Dependencies
-
-
-
-* Required tools
-* Required access
-* System requirements
-
-
-
-\---
-
-
-
-\## Common Issues
-
-
-
-* Issue → Fix
-* Issue → Fix
-
-
-
-\---
-
-
-
-\## Troubleshooting
-
-
-
-* What to check when things fail
-* Recovery steps
-
-
-
-\---
-
-
-
-\## Related Documents
-
-
-
-* Incident reports
-* Other SOPs
-* Total references
-
-
-
-\---
-
-
-
-\## Notes
-
-
+## Notes
 
 Additional important information.
 
+---
 
-
-\---
-
-
-
-\## Version History (Optional but good)
-
-
+## Version History (Optional but good)
 
 | Version | Date | Changes |
-
 |--------|------|--------|
-
-| 1.0 | \[Date] | Initial version |
-
+| 1.0 | [Date] | Initial version |
