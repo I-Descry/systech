@@ -178,6 +178,7 @@ Standardized documentation formats for:
 
 ### 📌 Files
 - Incident Report Template
+- SOP Template
 - Tool Reference Template
 
 ---
