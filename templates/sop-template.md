@@ -22,7 +22,7 @@ Where and when this process applies.
 
 ## Roles & Responsibility
 
-- **IT/Admin** Performs the process
+- **IT/Admin:** Performs the process
 - **User (if applicable):** Receives or validates
 
 ---
@@ -49,9 +49,11 @@ Step-by-step process:
 
 ## Configuration Details
 
-Commands, settings, and configurations used.
+Commands, settings, and configurations used:
 
-Example command
+```bash
+# Example command
+```
 
 ---
 
@@ -88,9 +90,8 @@ Example command
 
 ## Troubleshooting
 
-What to check when things fail
-
-Recovery steps
+- What to check when things fail
+- Recovery steps
 
 ---
 
@@ -113,3 +114,4 @@ Additional important information.
 | Version | Date | Changes |
 |--------|------|--------|
 | 1.0 | [Date] | Initial version |
+
