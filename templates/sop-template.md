@@ -3,32 +3,37 @@
 ---
 
 ## Overview
+
 Brief description of the process.
 
 ---
 
 ## Purpose
+
 Why this process exists and what it ensures.
 
 ---
 
 ## Scope
+
 Where and when this process applies.
 
 ---
 
 ## Roles & Responsibility
-**IT/Admin** Performs the process
-**User (if applicable):** Receives or validates
+
+- **IT/Admin** Performs the process
+- **User (if applicable):** Receives or validates
 
 ---
 
 ## Inputs / Preconditions
+
 What must be available before starting:
 
-Device / system ready
-Required access (admin, BIOS, etc.)
-Network connection (if needed)
+- Device / system ready
+- Required access (admin, BIOS, etc.)
+- Network connection (if needed)
 
 ---
 
@@ -36,9 +41,9 @@ Network connection (if needed)
 
 Step-by-step process:
 
-Step 1
-Step 2
-Step 3
+1. Step 1
+2. Step 2
+3. Step 3
 
 ---
 
@@ -52,47 +57,48 @@ Example command
 
 ## Expected Output
 
-Device is fully configured
-User access is correct
-System is secure and ready
+- Device is fully configured
+- User access is correct
+- System is secure and ready
 
 ---
 
 ## Security Considerations
 
-Risks involved
-Controls implemented
-Access restrictions
+- Risks involved
+- Controls implemented
+- Access restrictions
 
 ---
 
 ## Dependencies
 
-Required tools
-Required access
-System requirements
+- Required tools
+- Required access
+- System requirements
 
 ---
 
 ## Common Issues
 
-Issue → Fix
-Issue → Fix
+- Issue → Fix
+- Issue → Fix
 
 ---
 
 ## Troubleshooting
 
 What to check when things fail
+
 Recovery steps
 
 ---
 
 ## Related Documents
 
-Incident reports
-Other SOPs
-Total references
+- Incident reports
+- Other SOPs
+- Total references
 
 ---
 
