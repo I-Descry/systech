@@ -70,6 +70,7 @@ Endpoint-level issues including user workstations and devices:
 ### 📌 Files
 - SSO Browser Printing Issue - SSO Application (Chrome/Microsoft Edge)
 - Epson L3250 Printer Offline Issue - Driver Fix
+- SOP - Endpoint Provisioning (Windows & Firmware Security)
 
 ---
 
