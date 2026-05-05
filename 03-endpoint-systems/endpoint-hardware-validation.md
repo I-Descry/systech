@@ -12,7 +12,7 @@ This SOP defines the process for validating archived endpoint devices and periph
 
 ## Purpose
 
-To ensure that all archived are properly tested, accurately classified, and safely prepared for redeployment, repair, or disposal.
+To ensure that all archived devices are properly tested, accurately classified, and safely prepared for redeployment, repair, or disposal.
 
 ---
 
@@ -20,11 +20,11 @@ To ensure that all archived are properly tested, accurately classified, and safe
 
 Applies to all archived endpoint devices and peripherals, including:
 
-- Desktop units
-- Monitors
-- Keyboards
-- Mouse
-- Related accessories
+- desktop units
+- monitors
+- keyboards
+- mouse
+- related accessories
 
 ---
 
@@ -51,6 +51,7 @@ Applies to all archived endpoint devices and peripherals, including:
 1. Retrieve device from storage/archive
 2. Prepare required cables and accessories
 3. Place device in testing area
+4. Ensure device is free from previous user data (if applicable)
 
 ---
 
@@ -59,7 +60,7 @@ Applies to all archived endpoint devices and peripherals, including:
 Check for:
 
 - Visible damage (cracks, dents, broken parts)
-- Loose or damage ports
+- Loose or damaged ports
 - Missing components (RAM, HDD, cables)
 
 ---
@@ -142,7 +143,7 @@ Based on classification:
   - Evaluate for repair or replacement
   - Tag accordingly
 
-- **Defective / Non-usable:**
+- **Defective / Non-usable (DAMAGED / DISPOSAL):**
   - Set condition to **For Disposal (DISPOSAL)**
   - Prepare for disposal process
 
@@ -160,6 +161,64 @@ Based on classification:
 - **Available:** Store in archive for future deployment
 - **For Repair:** Isolate and schedule repair
 - **For Disposal:** Segregate for disposal processing
+
+---
+
+### 9. Archive Storage Organization
+
+Archived devices are stored in **separate labeled boxes per computer set**.
+
+Each box should contain:
+
+- Desktop unit
+- Monitor
+- Keyboard
+- Mouse
+- Associated cables (power, video, peripherals)
+
+---
+
+#### Peripheral & Cable Storage
+
+Loose accessories and shared components are stored in **dedicated categorized boxes**, separate from device sets.
+
+Examples:
+
+- HDMI / VGA cables
+- LAN cables
+- Mouse / Keyboard (spares)
+- Power cables
+- Adapters and converters
+
+---
+
+#### Labeling Requirements (Peripheral Boxes)
+
+Each box must be clearly labeled with:
+
+- Item Type (e.g., HDMI Cable, LAN Cable, Mouse)
+- Quantity (optional)
+- Condition (if applicable)
+
+---
+
+#### Storage Rules
+
+- Do not mix different cable types in one box
+- Keep peripherals organized by category
+- Ensure easy access and retrieval
+- Maintain separation from complete device sets
+
+---
+
+#### Purpose 
+
+- Prevent mixing of components and loss of accessories
+- Avoid mixing incompatible components
+- Maintain complete device sets
+- Improve retrieval efficiency
+- Ensure accurate asset tracking
+- Speed up device assembly and troubleshooting
 
 ---
 
@@ -182,7 +241,7 @@ Based on classification:
 
 ## Dependencies
 
-- Power supply and cable
+- Power supply and cables
 - Test workstation
 - Asset management system
 - Basic diagnostic tools
