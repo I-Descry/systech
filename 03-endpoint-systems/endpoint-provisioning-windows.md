@@ -144,6 +144,22 @@ Set the following:
 
 ---
 
+### 9. Enable Firmware Access Controls
+
+Enables the following BIOS settings:
+
+- System Management Password Access Control
+- BIOS Setup Configuration Protection
+
+> These settings typically:
+  
+  - "Require authentication before modifying BIOS settings"
+  - "Restrict unauthorized configuration changes"
+  - "Protect critical system settings (boot, firmware, security)"
+
+> Note: BIOS setting names and behavior may vary depending on device manufacturer.
+---
+
 ## Expected Output
 
 - Device is fully configured
