@@ -153,9 +153,9 @@ Enables the following BIOS settings:
 
 > These settings typically:
   
-  - "Require authentication before modifying BIOS settings"
-  - "Restrict unauthorized configuration changes"
-  - "Protect critical system settings (boot, firmware, security)"
+> - "Require authentication before modifying BIOS settings"
+> - "Restrict unauthorized configuration changes"
+> - "Protect critical system settings (boot, firmware, security)"
 
 > Note: BIOS setting names and behavior may vary depending on device manufacturer.
 ---
