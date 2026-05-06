@@ -22,7 +22,6 @@ Applies to employees requiring company email accounts, subject to eligibility, a
 
 ## Roles & Responsibility
 
-- **Requester (User / Department):** Initiates request
 - **IT/Admin:** Collects information, validates, submits, and monitors the request
 - **Approver (Supervisor / Manager):** Confirms if employee is eligible for email access
 - **External SysAdmin Team:** Processes and creates the email account
