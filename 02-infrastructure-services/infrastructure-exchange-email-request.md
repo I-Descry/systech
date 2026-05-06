@@ -23,21 +23,21 @@ Applies to employees requiring company email accounts, subject to eligibility, a
 ## Roles & Responsibility
 
 - **Requester (User / Department):** Initiates request
-- **IT/Admin:** Validates, processes, and coordinates the request
-- **Approver (Supervisor / Manager):** Confirms eligibility or approval
-- **External Team (if applicable):** Executes the request
+- **IT/Admin:** Collects information, validates, submits, and monitors the request
+- **Approver (Supervisor / Manager):** Confirms if employee is eligible for email access
+- **External SysAdmin Team:** Processes and creates the email account
 
 ---
 
 ## Inputs / Requirements
 
-Required information before initiating request:
+Required employee information:
 
-- Field 1
-- Field 2
-- Field 3
-- Field 4
-- Field 5
+- Full Name
+- Employee ID
+- Position
+- Department
+- Reporting Manager
 
 ---
 
@@ -45,32 +45,41 @@ Required information before initiating request:
 
 ### 1. Request Initiation
 
-- Collect required information
-- Verify completeness
+- Collect employee details
+- Ensure all required information is complete
 
 ---
 
 ### 2. Validation & Approval
 
-- Validate request based on policy
+- Confirm eligibility based on:
+  - Employment status (e.g., regular employee)
+  - Position requirements
+
+- Seek approval from supervisor
 
 ### Decision:
 
-- Approved → Proceed
-- Rejected → Cancel
+- **Approved** → Proceed with request
+- **Rejected** → Cancel request
 
 ---
 
 ### 3. Request Submission
 
-- Submit request via system/tool
+- Submit request through internal ticketing system / web application
+- Include all required employee details
 
 ---
 
 ### 4. External Processing (if applicable)
 
-- Process handled by external team/system
-- Processing time may vary
+- Request is handled by external IT team (other country)
+- Processing time may take several days or weeks
+
+### Optional:
+
+- Notify or follow up with external SysAdmin to help expedite processing
 
 ---
 
