@@ -56,6 +56,7 @@ Covers shared and network-dependent services such as:
 - Shared Printer Access Issue - Credential Authentication Required
 - Shared Printer Access Issue - Metered Connection on Host PC
 - Shared Printer Access Issue - Sharing Disabled on Host PC
+- Workflow - Email Account Provisioning Request (External)
 
 ---
 
@@ -182,6 +183,7 @@ Standardized documentation formats for:
 - Incident Report Template
 - SOP Template
 - Tool Reference Template
+- Workflow Template
 
 ---
 
