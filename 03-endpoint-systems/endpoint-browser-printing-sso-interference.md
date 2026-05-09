@@ -1,4 +1,4 @@
-# SSO Browser Printing Issue - SSO Application (Chrome/Microsoft Edge)
+# Incident Report - SSO Browser Printing Issue (Chrome/Microsoft Edge)
 
 ## Overview
 
