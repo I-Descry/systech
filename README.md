@@ -61,6 +61,7 @@ Covers shared and network-dependent services such as:
 
 ### 📌 Files
 - Workflow - SSO Account Provisioning & Transfer
+- Workflow - User Password Reset Request
 
 ## 📁 printing
 
