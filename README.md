@@ -51,12 +51,24 @@ Covers shared and network-dependent services such as:
 - Authentication and credential-based access
 - Host-dependent services
 
+
+## 📁 email
+
+### 📌 Files
+- Workflow - Email Account Provisioning Request (External)
+
+## 📁 identity-access
+
+### 📌 Files
+- Workflow - SSO Account Provisioning & Transfer
+
+## 📁 printing
+
 ### 📌 Files
 - Shared Printer Access Issue - Host PC Password Reset
 - Shared Printer Access Issue - Credential Authentication Required
 - Shared Printer Access Issue - Metered Connection on Host PC
 - Shared Printer Access Issue - Sharing Disabled on Host PC
-- Workflow - Email Account Provisioning Request (External)
 
 ---
 
