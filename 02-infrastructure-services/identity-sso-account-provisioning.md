@@ -4,13 +4,13 @@
 
 ## Overview
 
-This workflow defines the process for creating or transferring SSO (Single Sign-On) accounts for employees, including validation, dependency checks, and account delivery.
+This workflow defines the process for creating or transferring SSO (Single Sign-On) accounts for employees, including validation, dependency checks, authorization configuration, and account delivery.
 
 ---
 
 ## Purpose
 
-To ensure SSO accounts are properly created, assigned, and secured based on employee status and system requirements.
+To ensure SSO accounts are properly created, assigned, authorized, recorded, and secured based on employee status and system requirements.
 
 ---
 
@@ -22,8 +22,9 @@ Applies to all employees requiring SSO access, including new hires and replaceme
 
 ## Roles & Responsibility
 
-- **IT/Admin:** Creates, transfers, and manages SSO accounts
-- **HR:** Provides employee information
+- **IT/Admin:** Creates, transfers, configures, and manages SSO accounts
+- **HR:** Provides employee information and coordinates onboarding
+- **Supervisor:** Confirms employee legitimacy and operational requirements
 - **User (Employee):** Receives and uses SSO account
 
 ---
@@ -55,7 +56,7 @@ Required employee information:
   - HR
   - Employee (if needed)
 
-- Verify completeness and accuracy
+- Verify completeness and accuracy of submitted information
 
 ---
 
@@ -66,9 +67,10 @@ Required employee information:
 - **New Employee**
   - Create new SSO account
 
-- ** Replacement Employee**
+- **Replacement Employee**
   - Transfer or reassign existing SSO account
   - Update all user details
+  - Review and clean previous access if necessary
 
 ---
 
@@ -76,30 +78,50 @@ Required employee information:
 
 SSO accounts require a valid company email.
 
-### Rule:
+#### Rule:
 
-- If employee has **No email account** → Do NOT create or release SSO
-- If email is available → Proceed
+- ❌ If employee has **No email account** → Do NOT create or release SSO
+- ✅ If email is available → Proceed
 
 ---
 
 ### 4. Account Creation / Transfer
 
-#### For New Employee:
+#### For New Employee
 
-- Create SSO account using validated details
+- Create SSO account using validated employee details
 
-#### For Replacement:
+#### For Replacement Employee
 
-- Reassign existing account
-- Update user information
-- Review and clean previous access if needed
+- Reassign or transfer existing SSO account
+- Update employee information
+- Validate account ownership and access mapping
 
 ---
 
-### 5. Status Tracking
+### 5. Authorization Configuration
 
-Track account status:
+After account creation or reassignment, configure account permissions and authorization settings.
+
+#### Workflow Permissions
+
+Navigate to:
+
+- Workflow → Transaction
+
+Enable only the required permissions:
+
+- Approval
+- Create Document
+- Document Browser
+
+> Access should follow least privilege and role-based access principles.
+
+---
+
+### 6. Status Tracking
+
+Track account provisioning status:
 
 - Pending
 - In Progress
@@ -108,17 +130,38 @@ Track account status:
 
 ---
 
-### 6. Completion & Recording
+### 7. Completion & Recording
+
+After provisioning and authorization:
 
 - Record account details in internal system
-- Update asset/user tracking records
+- Update user and tracking records
+- Document assigned permissions if applicable
 
 ---
 
-### 7. Deliver to User
+#### Notification
 
-- Provide SSO access details to employee
-- Share login instructions or portal link
+Notify the following that SSO provisioning has been completed:
+
+- Supervisor
+- HR
+- Relevant IT team members
+
+---
+
+### 8. Delivery to User
+
+Provide SSO access details and login instructions.
+
+SSO credentials or account access may be released by:
+
+- IT/Admin
+- IT Team
+- Team Supervisor
+- HR
+
+depending on operational process and approval flow.
 
 ---
 
@@ -126,16 +169,19 @@ Track account status:
 
 - SSO account successfully created or transferred
 - Account linked to correct employee
-- User receives  access
+- Appropriate authorization configured
+- Account recorded in internal system
+- Employee receives access details
 
 ---
 
 ## Security Considerations
 
 - Verify employee identity before account assignment
-- Ensure previous user access is removed (for replacement)
-- Do not create accounts without approved or valid data
-- Protect account credentials during delivery
+- Ensure previous user access is removed for replacement employees
+- Do not create accounts using incomplete or unverified data
+- Protect credentials during delivery
+- Apply least privilege access principles
 
 ---
 
@@ -144,6 +190,7 @@ Track account status:
 - Employee email account
 - HR data accuracy
 - SSO system availability
+- Internal authorization configuration
 
 ---
 
@@ -153,6 +200,7 @@ Track account status:
 - No email account yet
 - Incorrect user details
 - Old access not removed (replacement case)
+- Incorrect authorization configuration
 
 ---
 
@@ -161,7 +209,8 @@ Track account status:
 - Verify all required fields
 - Confirm email availability
 - Re-check HR data
-- Audit account permissions
+- Audit assigned permissions and authorization settings
+- Validate account ownership and mapping
 
 ---
 
@@ -175,7 +224,7 @@ Track account status:
 
 ## Notes
 
-SSO provisioning is dependent on email availability and accurate employee data. Delays may occur if prerequisites are not met.
+SSO provisioning depends on email availability and accurate employee information. Delays may occur if prerequisites or approvals are incomplete.
 
 ---
 
@@ -183,4 +232,5 @@ SSO provisioning is dependent on email availability and accurate employee data. 
 
 | Version | Date | Changes |
 |--------|------|--------|
+| 1.1 | [Date] | Added authorization configuration and controlled release process |
 | 1.0 | [Date] | Initial version |
