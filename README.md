@@ -84,6 +84,7 @@ Endpoint-level issues including user workstations and devices:
 ### 📌 Files
 - Incident Report - SSO Browser Printing Issue (Chrome/Microsoft Edge)
 - Incident Report - Epson L3250 Printer Offline Issue (Driver Fix)
+- Incident Report - HP Canon MF Network Printer Offline Issue (Scanner Selector Disabled)
 - SOP - Endpoint Provisioning (Windows & Firmware Security)
 - SOP - Endpoint Hardware Validation (Archived Devices)
 
