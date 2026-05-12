@@ -57,3 +57,11 @@
 ## Notes
 
 [Additional information if needed]
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|--------|------|--------|
+| 1.0 | [Date] | Initial version |
