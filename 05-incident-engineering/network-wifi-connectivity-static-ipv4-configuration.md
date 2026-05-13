@@ -63,7 +63,7 @@ Navigate to:
 
 ### 4. Identify Incorrect Manual Configuration
 
-Observed that the network settings where manually configured instead of automatic.
+Observed that the Wi-Fi adapter was configured with manually assigned IPv4 settings instead of automatic DHCP configuration.
 
 Examples of manually configured values may include:
 
@@ -132,5 +132,6 @@ Incorrect manually configured IPv4 settings preventing proper DHCP network confi
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.1 | [Date] | Added detailed step-by-step resolution process and IPv4 configuration clarification |
-| 1.0 | [Date] | Initial version |
+| 1.2 | 05/13/2026 | Refined technical wording |
+| 1.1 | 05/13/2026 | Added detailed step-by-step resolution process and IPv4 configuration clarification |
+| 1.0 | 05/13/2026 | Initial version |
