@@ -35,11 +35,65 @@ This indicated that the issue was isolated to the wireless network configuration
 
 ## Resolution
 
-- Opened network adapter IPv4 settings
-- Removed manually configured IPv4 values
-- Reverted IPv4 configuration back to automatic assignment (DHCP)
-- Reconnected laptop to Wi-Fi network
-- Verified successful internet connectivity
+### Step-by-Step Resolution Process
+
+### 1. Open Network Connections
+
+Navigate to:
+
+- Control Panel > Network and Internet > Network and Sharing Center > Change Adapter Settings
+
+---
+
+### 2. Open Wi-Fi Adapter Properties
+
+- Right-click the Wi-Fi adapter > Select **Properties**
+
+---
+
+### 3. Open IPv4 Configuration
+
+- Select:
+
+`Internet Protocol Version 4 (TCP/IPv4)`
+
+- Click **Properties**
+
+---
+
+### 4. Identify Incorrect Manual Configuration
+
+Observed that the network settings where manually configured instead of automatic.
+
+Examples of manually configured values may include:
+
+- Static IP Address
+- Subnet Mask
+- Default Gateway
+- Preferred DNS Server
+- Alternate DNS Server
+
+---
+
+### 5. Revert Configuration to Automatic
+
+Select:
+
+- **Obtain an IP address automatically**
+- **Obtain DNS server address automatically**
+
+Then:
+
+- Click **OK**
+- Close all network windows
+
+---
+
+### 6. Reconnect to Wi-Fi
+
+- Disconnect from Wi-Fi
+- Reconnect to the wireless network
+- Verify internet connectivity
 
 ---
 
@@ -78,4 +132,5 @@ Incorrect manually configured IPv4 settings preventing proper DHCP network confi
 
 | Version | Date | Changes |
 |--------|------|--------|
+| 1.1 | [Date] | Added detailed step-by-step resolution process and IPv4 configuration clarification |
 | 1.0 | [Date] | Initial version |
