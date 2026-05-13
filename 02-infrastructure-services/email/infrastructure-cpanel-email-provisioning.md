@@ -191,6 +191,6 @@ Email accounts must only be created for verified employees. All accounts must fo
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.2 | [Date] | Improved workflow structure, verification process, credential handling, and internal recording details |
-| 1.1 | [Date] | Updated verification and removed formal status tracking system |
-| 1.0 | [Date] | Initial version |
+| 1.2 | 05/13/2026 | Improved workflow structure, verification process, credential handling, and internal recording details |
+| 1.1 | 05/13/2026 | Updated verification and removed formal status tracking system |
+| 1.0 | 05/13/2026 | Initial version |
