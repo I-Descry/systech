@@ -32,6 +32,7 @@
 ## Resolution
 
 - [Steps taken to resolve the issue]
+- [Step-by-step if applicable]
 
 ---
 
