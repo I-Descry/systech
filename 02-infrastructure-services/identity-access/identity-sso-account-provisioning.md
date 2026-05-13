@@ -232,5 +232,5 @@ SSO provisioning depends on email availability and accurate employee information
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.1 | [Date] | Added authorization configuration and controlled release process |
-| 1.0 | [Date] | Initial version |
+| 1.1 | 05/09/2026 | Added authorization configuration and controlled release process |
+| 1.0 | 05/09/2026 | Initial version |
