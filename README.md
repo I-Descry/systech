@@ -113,6 +113,7 @@ Structured incident documentation focusing on:
 - Service impact evaluation
 
 ### 📌 Files
+- Incident Report - Wi-Fi Connectivity Failure Due to Static IPv4 Configuration
 - Local User Account Password Expiration Issue - Login Failure
 - User Password Reset - Local Account via Hidden Administrator Account
 
