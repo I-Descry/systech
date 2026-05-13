@@ -210,6 +210,6 @@ This workflow depends on an external IT team and may experience delays beyond lo
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.1 | [Date] | Added status tracking and monitoring process |
-| 1.0 | [Date] | Initial version |
+| 1.1 | 05/09/2026 | Added status tracking and monitoring process |
+| 1.0 | 05/09/2026 | Initial version |
 
