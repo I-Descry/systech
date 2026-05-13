@@ -179,4 +179,4 @@ Password resets should only be performed for verified users and according to com
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.0 | [Date] | Initial version |
+| 1.0 | 05/09/2026 | Initial version |
