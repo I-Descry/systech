@@ -56,6 +56,7 @@ Covers shared and network-dependent services such as:
 
 ### 📌 Files
 - Workflow - cPanel Email Account Provisioning
+- Workflow - cPanel Email Password Reset
 - Workflow - Email Account Provisioning Request (External)
 
 ## 📁 identity-access
