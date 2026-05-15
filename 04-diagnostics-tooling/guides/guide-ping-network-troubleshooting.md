@@ -329,4 +329,5 @@ This guide is intended for foundational network troubleshooting and operational 
 
 | Version | Date | Changes |
 |--------|------|--------|
-| 1.0 | 05/14/2026 | Converted document into structured troubleshooting guide |
+| 1.1 | 05/14/2026 | Converted document into structured troubleshooting guide |
+| 1.0 | 04/30/2026 | Initial version |
