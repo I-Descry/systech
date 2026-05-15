@@ -1,14 +1,38 @@
-# [Tool Name] – [Short Description]
+# Reference - [Tool Name]
+
+> Replace placeholder values before use.
+
+---
 
 ## Overview
 
-[Brief explanation of what the tool is and what it does in IT context]
+[Brief explanation of the tool, command, utility, or application]
 
-[Main purpose]
+Describe:
+
+- What the tool does
+- Its primary purpose
+- Why it is useful in IT operations or troubleshooting
+
+---
+
+## Tool Type
+
+Examples:
+
+- Diagnostic Tool
+- Network Utility
+- System Administration Tool
+- Disk Analysis Tool
+- Monitoring Tool
+- Security Utility
+- Remote Access Tool
 
 ---
 
 ## Purpose
+
+This tool is used to:
 
 - [Primary function 1]
 - [Primary function 2]
@@ -20,13 +44,25 @@
 
 ## When to Use [Tool Name]
 
-[Tool Name] is useful when:
+Use this tool when:
 
 - [Scenario 1]
 - [Scenario 2]
 - [Scenario 3]
 - [Scenario 4]
 - [Scenario 5]
+
+---
+
+## Requirements
+
+Before using the tool, ensure the following are available:
+
+- [Required permissions]
+- [Administrator access if applicable]
+- [Installed application/tool]
+- [Supported operating system]
+- [Network or hardware requirements]
 
 ---
 
@@ -42,21 +78,53 @@
 
 ## How It Works (Technical Behavior)
 
-- [Step or internal process 1]
-- [Step or internal process 2]
-- [Step or internal process 3]
-- [System behavior explanation]
-- [Limitation of what it can/can’t do]
+Describe the internal or technical behavior of the tool.
+
+Examples:
+
+- How it gathers or processes information
+- How it communicates with systems or networks
+- What protocols, services, or APIs it uses
+- What action it performs internally
+- Limitations of its operation
+
+---
+
+## Example Usage
+
+### Basic Example
+
+```cmd
+[command or usage example]
+```
+
+Explanation:
+
+- [What the command or action does]
+
+---
+
+### Additional Example
+
+```cmd
+[another example]
+```
+
+Explanation:
+
+- [Description]
 
 ---
 
 ## IT Use Cases
 
-- [Real-world IT support use case 1]
-- [Real-world IT support use case 2]
-- [Real-world IT support use case 3]
-- [System administration use case]
+Examples of real-world operational usage:
+
 - [Troubleshooting scenario]
+- [System administration task]
+- [Network diagnostic use case]
+- [Storage or performance analysis]
+- [Security or monitoring use case]
 
 ---
 
@@ -65,14 +133,45 @@
 - [Limitation 1]
 - [Limitation 2]
 - [Limitation 3]
-- [Permission / access limitations if applicable]
-- [Technical constraints]
+- [Permission or access limitation]
+- [Technical constraint]
+
+---
+
+## Security Considerations
+
+- [Security warning]
+- [Privilege or access consideration]
+- [Operational risk]
+- [Data privacy or exposure concern]
+
+---
+
+## Related Tools / Commands / Documents
+
+- [Related Tool 1]
+- [Related Tool 2]
+- [Related SOP / Guide / Workflow]
+- [Related command or utility]
 
 ---
 
 ## Notes
 
-- [Important warning or best practice 1]
-- [Important warning or best practice 2]
-- [Security or data safety note]
-- [Operational recommendation]
+Additional operational notes, recommendations, or best practices.
+
+Examples:
+
+- Best used with administrator privileges
+- Review results carefully before taking action
+- Some features may require elevated permissions
+- Avoid using on production systems without authorization
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|--------|------|--------|
+| 1.1 | 05/15/2026 | Updated template structure |
+| 1.0 | 04/30/2026 | Initial version |
