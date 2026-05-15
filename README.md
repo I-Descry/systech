@@ -100,6 +100,21 @@ Tools used for system analysis and troubleshooting:
 - Windows system utilities
 - PowerShell and CMD utilities
 
+## 📁 guides
+
+### 📌 Files
+- Guide - Ping Command Network Troubleshooting
+
+## 📁 references
+
+### 📌 Files
+
+
+## 📁 tools
+
+### 📌 Files
+
+
 ### 📌 Files
 - Ping Command - Network Connectivity Troubleshooting Guide
 - TreeSize - Disk Usage Analysis Tool
