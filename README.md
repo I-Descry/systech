@@ -212,6 +212,7 @@ Standardized documentation formats for:
 - Script documentation
 
 ### 📌 Files
+- Guide Template
 - Incident Report Template
 - SOP Template
 - Tool Reference Template
